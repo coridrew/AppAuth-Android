@@ -68,9 +68,12 @@
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <data android:scheme="https"
-                  android:host="appauth.demo-app.io"
+                  android:host="net.openid.appauthdemo"
                   android:path="/oauth2redirect"/>
             </intent-filter>
         </activity>
     </application>
 </manifest>
+
+
+    <!--android:host="appauthdemo.openid.net"-->
