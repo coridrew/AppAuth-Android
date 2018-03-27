@@ -67,9 +67,12 @@
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:scheme="https"
-                  android:host="net.openid.appauthdemo"
-                  android:path="/oauth2redirect"/>
+                <data android:scheme="net.openid.appauthdemo"
+                android:host="sfgluu.southcentralus.cloudapp.azure.com"/>
+                <!-- <data android:scheme="net.openid.appauthdemo"/>
+               <data android:scheme="https"
+                 android:host="net.openid.appauthdemo"
+                 android:path="/oauth2redirect"/>-->
             </intent-filter>
         </activity>
     </application>

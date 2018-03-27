@@ -1,7 +1,6 @@
 {
-  "client_id": "",
-
-  "redirect_uri": "https://net.openid.appauthdemo/oauth2redirect",
+  "client_id": "@!CB29.C478.D5E7.9261!0001!BC43.09EA!0008!9C83.75BD.A1F3.DF76",
+  "redirect_uri": "net.openid.appauthdemo://sfgluu.southcentralus.cloudapp.azure.com",
   "authorization_scope": "openid email profile",
   "discovery_uri": "https://sfgluu.southcentralus.cloudapp.azure.com/.well-known/openid-configuration",
   "authorization_endpoint_uri": "",
